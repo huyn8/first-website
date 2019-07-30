@@ -1,0 +1,163 @@
+#main-header{
+    background-color: #ff4d4d;
+    color: #ffffff;
+}
+
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#navbar{
+    background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+    align-content: center;
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:20px;
+}
+
+#description{
+    background-image:url('../images/fire.jpg');
+    background-size: auto;
+	background-position: center;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#description h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top:30px;
+}
+
+#showcase{
+    text-align: center;
+    width: auto;
+    padding:0 50px;
+    border: 10px;
+	box-sizing: border-box;
+}
+
+img{
+    width: 400px;
+    padding: 10px;
+    border:10px solid #ff4d4d; 
+    margin: 20px;  
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+}
+
+.categories h2{
+	text-align:center;
+}
+
+.categories ul{
+	padding:10px;
+	padding-left:20px;
+	list-style:square;
+	list-style:none;
+}
+
+.categories li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+	margin: 2px;
+}
+
+#sidebar{
+	float: right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+
+.my-form{
+	padding:20px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:50%;
+}
+
+.fix-me{
+	position:fixed;
+	top:400px;
+}
+
+a:hover{
+    color:red;
+    background:red;
+}
+
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color:#fff;
+}
+
+.clr{
+	clear:both;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+}
